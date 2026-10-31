@@ -1,0 +1,8 @@
+{"elapsed_ms":0,"kind":"dial","detail":"wss://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM/stream-input?model_id=eleven_turbo_v2_5","scenario":"speak","mode":"single","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":414,"kind":"open","detail":"handshake complete","scenario":"speak","mode":"single","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":417,"kind":"send","detail":"init (BOS)","bytes":226,"scenario":"speak","mode":"single","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":419,"kind":"send","detail":"text","bytes":69,"scenario":"speak","mode":"single","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":419,"kind":"waiting","detail":"text sent, then idle until the server closes","scenario":"speak","mode":"single","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":533,"kind":"recv","detail":"unparsed frame: {\"message\":\"Free users cannot use library voices via the API. Please upgrade your subscription to use this voice.\",\"erro…","bytes":154,"scenario":"speak","mode":"single","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":1416,"kind":"close","detail":"Free users cannot use library voices via the API. Please upgrade your subscription to use this voice.","close_code":1008,"scenario":"speak","mode":"single","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":1420,"kind":"done","detail":"server closed the socket","scenario":"speak","mode":"single","model":"eleven_turbo_v2_5"}

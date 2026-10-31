@@ -1,0 +1,7 @@
+{"elapsed_ms":1,"kind":"dial","detail":"wss://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM/multi-stream-input?model_id=eleven_turbo_v2_5","scenario":"empty","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":291,"kind":"open","detail":"handshake complete","scenario":"empty","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":291,"kind":"send","detail":"init (BOS)","bytes":186,"scenario":"empty","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":2294,"kind":"send","detail":"empty text {\"text\":\"\"}","bytes":38,"scenario":"empty","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":2294,"kind":"waiting","detail":"sent empty text; watching for close","scenario":"empty","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":22406,"kind":"recv","detail":"isFinal (context probe-ctx-1)","scenario":"empty","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":60292,"kind":"done","detail":"socket still open at -max=1m0s","scenario":"empty","mode":"multi","model":"eleven_turbo_v2_5"}

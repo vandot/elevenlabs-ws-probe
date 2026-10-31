@@ -1,0 +1,4 @@
+/elevenlabs-ws-probe
+/out/
+/out-*.jsonl
+.env

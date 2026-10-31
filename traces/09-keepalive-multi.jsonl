@@ -1,0 +1,11 @@
+{"elapsed_ms":1,"kind":"dial","detail":"wss://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM/multi-stream-input?model_id=eleven_turbo_v2_5","scenario":"keepalive","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":234,"kind":"open","detail":"handshake complete","scenario":"keepalive","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":235,"kind":"send","detail":"init (BOS)","bytes":186,"scenario":"keepalive","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":235,"kind":"waiting","detail":"sending a space every 15s","scenario":"keepalive","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":15239,"kind":"send","detail":"keepalive space","bytes":39,"scenario":"keepalive","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":30237,"kind":"send","detail":"keepalive space","bytes":39,"scenario":"keepalive","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":45237,"kind":"send","detail":"keepalive space","bytes":39,"scenario":"keepalive","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":60237,"kind":"send","detail":"keepalive space","bytes":39,"scenario":"keepalive","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":75237,"kind":"send","detail":"keepalive space","bytes":39,"scenario":"keepalive","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":90236,"kind":"done","detail":"socket still open at -max=1m30s","scenario":"keepalive","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":90239,"kind":"send","detail":"keepalive space","bytes":39,"scenario":"keepalive","mode":"multi","model":"eleven_turbo_v2_5"}

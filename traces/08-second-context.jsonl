@@ -1,0 +1,12 @@
+{"elapsed_ms":0,"kind":"dial","detail":"wss://api.elevenlabs.io/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb/multi-stream-input?model_id=eleven_turbo_v2_5","scenario":"newctx","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":3467,"kind":"open","detail":"handshake complete","scenario":"newctx","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":3468,"kind":"send","detail":"init (BOS)","bytes":186,"scenario":"newctx","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":3468,"kind":"waiting","detail":"idle until the context finalises, then opening a second context","scenario":"newctx","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":27862,"kind":"recv","detail":"isFinal (context probe-ctx-1)","scenario":"newctx","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":30072,"kind":"probe","detail":"first context finalised; opening probe-ctx-2","scenario":"newctx","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":30076,"kind":"send","detail":"init second context","bytes":122,"scenario":"newctx","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":30076,"kind":"send","detail":"text on second context","bytes":96,"scenario":"newctx","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":30076,"kind":"waiting","detail":"audio here means the socket is healthy and only the dead context was unusable","scenario":"newctx","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":30998,"kind":"recv","detail":"audio chunk (context probe-ctx-2)","bytes":45601,"scenario":"newctx","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":51140,"kind":"recv","detail":"isFinal (context probe-ctx-2)","scenario":"newctx","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":93470,"kind":"done","detail":"socket still open at -max=1m30s","scenario":"newctx","mode":"multi","model":"eleven_turbo_v2_5"}

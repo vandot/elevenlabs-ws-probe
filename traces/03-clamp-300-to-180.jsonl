@@ -1,0 +1,6 @@
+{"elapsed_ms":1,"kind":"dial","detail":"wss://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM/multi-stream-input?inactivity_timeout=300\u0026language_code=tr\u0026model_id=eleven_turbo_v2_5","scenario":"idle","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":228,"kind":"open","detail":"handshake complete","scenario":"idle","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":229,"kind":"send","detail":"init (BOS)","bytes":186,"scenario":"idle","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":229,"kind":"waiting","detail":"idle after init, nothing further will be sent","scenario":"idle","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":180328,"kind":"recv","detail":"isFinal (context probe-ctx-1)","scenario":"idle","mode":"multi","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":360235,"kind":"done","detail":"socket still open at -max=6m0s","scenario":"idle","mode":"multi","model":"eleven_turbo_v2_5"}

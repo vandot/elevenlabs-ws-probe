@@ -1,0 +1,7 @@
+{"elapsed_ms":0,"kind":"dial","detail":"wss://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM/stream-input?model_id=eleven_turbo_v2_5","scenario":"idle","mode":"single","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":374,"kind":"open","detail":"handshake complete","scenario":"idle","mode":"single","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":375,"kind":"send","detail":"init (BOS)","bytes":226,"scenario":"idle","mode":"single","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":376,"kind":"waiting","detail":"idle after init, nothing further will be sent","scenario":"idle","mode":"single","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":20704,"kind":"recv","detail":"unparsed frame: {\"message\":\"Have not received a new text input within the timeout of 20 seconds. Streaming input terminated. Please make…","bytes":283,"scenario":"idle","mode":"single","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":21271,"kind":"close","detail":"Have not received a new text input within the timeout of 20 seconds. Streaming input terminated. Please make sure to eit","close_code":1008,"scenario":"idle","mode":"single","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":21272,"kind":"done","detail":"server closed the socket","scenario":"idle","mode":"single","model":"eleven_turbo_v2_5"}

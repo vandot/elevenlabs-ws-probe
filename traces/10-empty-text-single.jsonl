@@ -1,0 +1,8 @@
+{"elapsed_ms":0,"kind":"dial","detail":"wss://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM/stream-input?model_id=eleven_turbo_v2_5","scenario":"empty","mode":"single","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":340,"kind":"open","detail":"handshake complete","scenario":"empty","mode":"single","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":341,"kind":"send","detail":"init (BOS)","bytes":226,"scenario":"empty","mode":"single","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":2343,"kind":"send","detail":"empty text {\"text\":\"\"}","bytes":11,"scenario":"empty","mode":"single","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":2343,"kind":"waiting","detail":"sent empty text; watching for close","scenario":"empty","mode":"single","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":2428,"kind":"recv","detail":"isFinal ","scenario":"empty","mode":"single","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":3216,"kind":"close","detail":"(no reason given)","close_code":1000,"scenario":"empty","mode":"single","model":"eleven_turbo_v2_5"}
+{"elapsed_ms":3217,"kind":"done","detail":"server closed the socket","scenario":"empty","mode":"single","model":"eleven_turbo_v2_5"}
